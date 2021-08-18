@@ -19,7 +19,6 @@ watchEffect(() => {
     <p>
       {{ t('intro.hi', { name: props.name }) }}
     </p>
-
     <p class="text-sm opacity-50">
       <em>{{ t('intro.dynamic-route') }}</em>
     </p>
